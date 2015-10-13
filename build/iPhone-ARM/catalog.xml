@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <flex version="4.7.0" build="354154" minimumSupportedVersion="3.0.0"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="354154"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="cn/doudou/SilentSwitch" mod="1444640900000">
+                <def id="cn.doudou:SilentSwitch"/>
+                <dep id="Function" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="flash.events:StatusEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="66833bc9446a9927f2c2e587037f2ae3a6dee6efd44a486bab30263c53d8aab6"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

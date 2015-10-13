@@ -1,0 +1,12 @@
+<extension xmlns="http://ns.adobe.com/air/extension/18.0">
+	<id>cn.doudou.ane.silentswitch</id>
+	<versionNumber>1.0.0</versionNumber>
+	<platforms>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libSilentSwitchOC.a</nativeLibrary>
+				<initializer>ExtensionInitializer</initializer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>
