@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBD9619C1BC8ABAE0006C217 /* SilentSwitch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FBD9619B1BC8ABAE0006C217 /* SilentSwitch.h */; };
+		FBD9619E1BC8ABAE0006C217 /* SilentSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD9619D1BC8ABAE0006C217 /* SilentSwitch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBD961961BC8ABAE0006C217 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FBD9619C1BC8ABAE0006C217 /* SilentSwitch.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB56BE9A1BC8ADAC00CFB130 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		FBD961981BC8ABAE0006C217 /* libSilentSwitchOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSilentSwitchOC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD9619B1BC8ABAE0006C217 /* SilentSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SilentSwitch.h; sourceTree = "<group>"; };
+		FBD9619D1BC8ABAE0006C217 /* SilentSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SilentSwitch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBD961951BC8ABAE0006C217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBD9618F1BC8ABAE0006C217 = {
+			isa = PBXGroup;
+			children = (
+				FBD9619A1BC8ABAE0006C217 /* SilentSwitchOC */,
+				FBD961991BC8ABAE0006C217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBD961991BC8ABAE0006C217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBD961981BC8ABAE0006C217 /* libSilentSwitchOC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBD9619A1BC8ABAE0006C217 /* SilentSwitchOC */ = {
+			isa = PBXGroup;
+			children = (
+				FB56BE9A1BC8ADAC00CFB130 /* FlashRuntimeExtensions.h */,
+				FBD9619B1BC8ABAE0006C217 /* SilentSwitch.h */,
+				FBD9619D1BC8ABAE0006C217 /* SilentSwitch.m */,
+			);
+			path = SilentSwitchOC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBD961971BC8ABAE0006C217 /* SilentSwitchOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD961A11BC8ABAE0006C217 /* Build configuration list for PBXNativeTarget "SilentSwitchOC" */;
+			buildPhases = (
+				FBD961941BC8ABAE0006C217 /* Sources */,
+				FBD961951BC8ABAE0006C217 /* Frameworks */,
+				FBD961961BC8ABAE0006C217 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SilentSwitchOC;
+			productName = SilentSwitchOC;
+			productReference = FBD961981BC8ABAE0006C217 /* libSilentSwitchOC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBD961901BC8ABAE0006C217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "兜兜大侠";
+				TargetAttributes = {
+					FBD961971BC8ABAE0006C217 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FBD961931BC8ABAE0006C217 /* Build configuration list for PBXProject "SilentSwitchOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBD9618F1BC8ABAE0006C217;
+			productRefGroup = FBD961991BC8ABAE0006C217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBD961971BC8ABAE0006C217 /* SilentSwitchOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBD961941BC8ABAE0006C217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD9619E1BC8ABAE0006C217 /* SilentSwitch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBD9619F1BC8ABAE0006C217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBD961A01BC8ABAE0006C217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBD961A21BC8ABAE0006C217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FBD961A31BC8ABAE0006C217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBD961931BC8ABAE0006C217 /* Build configuration list for PBXProject "SilentSwitchOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD9619F1BC8ABAE0006C217 /* Debug */,
+				FBD961A01BC8ABAE0006C217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD961A11BC8ABAE0006C217 /* Build configuration list for PBXNativeTarget "SilentSwitchOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD961A21BC8ABAE0006C217 /* Debug */,
+				FBD961A31BC8ABAE0006C217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBD961901BC8ABAE0006C217 /* Project object */;
+}
